@@ -5,7 +5,7 @@ const Hero = () => {
       className="bg-gray-900 text-white py-20 px-40 flex items-center justify-between"  // Adjusted padding here
     >
       <div className="text-left max-w-2xl">
-        <h2 className="text-7xl font-bold text-teal-400 relative -mt-30">
+        <h2 className="text-7xl font-bold text-teal-400 relative mt-28">
           YOUR <span className="text-white">ONE</span> STOP COLLEGE EVENT GUIDE
         </h2>
         {/* Horizontal Line with space from top */}
