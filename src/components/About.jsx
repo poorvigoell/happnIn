@@ -1,28 +1,49 @@
+// src/components/About.jsx
+import Team from './Team'; // Correct import path for Team
+
 const About = () => {
-    return (
-      <section
-        id="about"
-        className="bg-gray-900 text-white py-20"
-      >
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold text-teal-400">WHO ARE WE?</h2>
-          <p className="text-lg mt-4 max-w-3xl mx-auto">
-            HappInA is your ultimate platform for exploring and managing college events. With features like event categories, notifications, and seamless registration, we make sure you never miss out!
-          </p>
-          <div className="flex justify-center gap-10 mt-8">
-            <div>
-              <h3 className="text-xl font-semibold text-teal-400">Clean Code</h3>
-              <p>We deliver maintainable and efficient code.</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold text-teal-400">Modern Design</h3>
-              <p>Our UI is sleek, responsive, and user-friendly.</p>
-            </div>
+  return (
+    <section id="about" className="bg-gray-900 text-white py-20">
+      <div className="container mx-auto px-8 lg:px-16">
+        <h2 className="text-6xl font-bold text-teal-400 text-center">
+          WHO ARE WE?
+        </h2>
+        <p className="text-xl mt-10 max-w-4xl mx-auto text-gray-300 text-center ">
+          HappnIn is your ultimate platform for college students to stay on top of campus events. We offer a seamless experience to explore upcoming events, register, and receive notifications—all in one place.
+        </p>
+
+      
+
+        {/* Mission, Vision, and Values Section */}
+        <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div className="text-left px-4">
+            <h3 className="text-3xl font-semibold text-teal-400">Our Mission</h3>
+            <p className="text-lg mt-4 text-gray-300 leading-relaxed">
+              Our mission is to help students stay informed and engaged with their college events. By centralizing event discovery and registration, we aim to simplify the process and empower students to participate actively in campus life.
+            </p>
+          </div>
+
+          <div className="text-left px-4">
+            <h3 className="text-3xl font-semibold text-teal-400">Our Vision</h3>
+            <p className="text-lg mt-4 text-gray-300 leading-relaxed">
+              We envision a connected student community where every event is easily accessible, with real-time updates that help students never miss an important opportunity to engage in campus activities.
+            </p>
+          </div>
+
+          <div className="text-left px-4">
+            <h3 className="text-3xl font-semibold text-teal-400">Our Values</h3>
+            <p className="text-lg mt-4 text-gray-300 leading-relaxed">
+              We believe in community, innovation, transparency, and empowerment. By building an inclusive network, continuously improving our platform, and ensuring accurate event information, we empower students to make the most of their college journey.
+            </p>
           </div>
         </div>
-      </section>
-    );
-  };
-  
-  export default About;
-  
+      </div>
+    </section>
+
+    
+  );
+  {/* Team Section */}
+  <Team />
+};
+
+export default About;

@@ -3,6 +3,14 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
 import Footer from './components/Footer';
+import Team from './components/Team';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
+
+
+
+
 
 function App() {
   return (
@@ -18,7 +26,7 @@ function App() {
       
       {/* About Section */}
       <About />
-      
+      <Team />
       {/* Footer */}
       <Footer />
     </div>
