@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 const Footer = () => {
   return (
-    <footer className="bg-[#374151] text-white py-8">
+    <footer className="bg-[#374151] text-white py-2">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         {/* Left Section: HappnIn Logo/Name */}
         <div className="text-left mb-6 lg:mb-0">

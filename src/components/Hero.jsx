@@ -19,7 +19,7 @@ const Hero = () => {
       <img
         src="https://via.placeholder.com/300"
         alt="Creative Design"
-        className="mt-8 ml-8 rounded-lg shadow-lg w-96 -mt-12"
+        className=" ml-8 rounded-lg shadow-lg w-96 -mt-12"
       />
     </section>
   );
