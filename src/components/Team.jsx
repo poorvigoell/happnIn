@@ -1,7 +1,7 @@
 // src/components/Team.jsx
 const Team = () => {
     return (
-      <section id="team" className="bg-[#1f2937] text-white py-20">
+      <section id="team" className="bg-gradient-to-r from-gray-900 text-white py-20">
         <div className="container mx-auto px-8 lg:px-16 text-center">
         <h2 className="text-6xl font-bold -mt-2">
             <span className="text-white">MEET OUR </span>

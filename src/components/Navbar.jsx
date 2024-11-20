@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-900 text-white  shadow-md fixed w-full z-50">
+    <nav className="bg-gradient-to-r from-gray-900 to-black text-white  shadow-md fixed w-full z-50">
       <div className="container mx-auto flex justify-between items-center px-8">
         {/* Logo */}
         <h1 className="text-2xl font-bold">
@@ -36,11 +36,11 @@ const Navbar = () => {
               </span>
             </button>
             {dropdownOpen && (
-              <ul className="absolute left-0 mt-2 w-48 bg-gray-800 rounded shadow-lg">
+              <ul className="absolute left-0 mt-2 w-48 bg-transparent rounded shadow-lg">
                 <li>
                   <a
                     href="#hackathons"
-                    className="block px-4 py-2 hover:bg-gray-700 text-white transition-colors"
+                    className="block px-4 py-2 hover:bg-gray-900 text-white transition-colors hover:text-teal-400"
                   >
                     Hackathons
                   </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#workshops"
-                    className="block px-4 py-2 hover:bg-gray-700 text-white transition-colors"
+                    className="block px-4 py-2 hover:bg-gray-900 text-white hover:text-teal-400 transition-colors"
                   >
                     Workshops
                   </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#competitions"
-                    className="block px-4 py-2 hover:bg-gray-700 text-white transition-colors"
+                    className="block px-4 py-2 hover:bg-gray-900 text-white hover:text-teal-400 transition-colors"
                   >
                     Competitions
                   </a>
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#cultural"
-                    className="block px-4 py-2 hover:bg-gray-700 text-white transition-colors"
+                    className="block px-4 py-2 hover:bg-gray-900 text-white hover:text-teal-400 transition-colors"
                   >
                     Cultural Events
                   </a>
@@ -72,7 +72,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#official-college"
-                    className="block px-4 py-2 hover:bg-gray-700 text-white transition-colors"
+                    className="block px-4 py-2 hover:bg-gray-900 text-white hover:text-teal-400 transition-colors"
                   >
                     Official College Events
                   </a>

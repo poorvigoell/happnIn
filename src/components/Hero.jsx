@@ -1,8 +1,11 @@
+import React from 'react';
+import Digits from '../assets/Digits.jpg';
+
 const Hero = () => {
   return (
     <section
       id="home"
-      className="bg-gray-900 text-white py-20 px-40 flex items-center justify-between"  // Adjusted padding here
+      className="bg-gradient-to-r from-gray-900 to-black text-white py-20 px-40 flex items-center justify-between"  // Adjusted padding here
     >
       <div className="text-left max-w-2xl">
         <h2 className="text-7xl font-bold text-teal-400 relative mt-28">
@@ -17,9 +20,9 @@ const Hero = () => {
         </p>
       </div>
       <img
-        src="https://via.placeholder.com/300"
+        src={Digits}
         alt="Creative Design"
-        className=" ml-8 rounded-lg shadow-lg w-96 -mt-12"
+        className="mr-[80px] translate-y-16 rounded-xl shadow-[17px_17px_30px_rgba(18,151,160,0.5)] w-64 h-96 object-cover"
       />
     </section>
   );
