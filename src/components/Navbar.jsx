@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className="flex gap-6 text-lg items-center">
           <li>
-            <a href="#home" className="text-white hover:text-teal-400 transition-colors">
+            <a href="/" className="text-white hover:text-teal-400 transition-colors">
               Home
             </a>
           </li>
@@ -39,7 +39,7 @@ const Navbar = () => {
               <ul className="absolute left-0 mt-2 w-48 bg-transparent rounded shadow-lg">
                 <li>
                   <a
-                    href="#hackathons"
+                    href="/hackathons"
                     className="block px-4 py-2 hover:bg-gray-900 text-white transition-colors hover:text-teal-400"
                   >
                     Hackathons
@@ -47,7 +47,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="#workshops"
+                    href="/workshops"
                     className="block px-4 py-2 hover:bg-gray-900 text-white hover:text-teal-400 transition-colors"
                   >
                     Workshops
@@ -55,7 +55,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="#competitions"
+                    href="/competitions"
                     className="block px-4 py-2 hover:bg-gray-900 text-white hover:text-teal-400 transition-colors"
                   >
                     Competitions
@@ -63,7 +63,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="#cultural"
+                    href="/cultural"
                     className="block px-4 py-2 hover:bg-gray-900 text-white hover:text-teal-400 transition-colors"
                   >
                     Cultural Events
@@ -71,7 +71,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="#official-college"
+                    href="/official-college"
                     className="block px-4 py-2 hover:bg-gray-900 text-white hover:text-teal-400 transition-colors"
                   >
                     Official College Events
@@ -81,17 +81,17 @@ const Navbar = () => {
             )}
           </li>
           <li>
-            <a href="#societies" className="text-white hover:text-teal-400 transition-colors">
+            <a href="/societies" className="text-white hover:text-teal-400 transition-colors">
               Societies
             </a>
           </li>
           <li>
-            <a href="#contact" className="text-white hover:text-teal-400 transition-colors">
+            <a href="/contact" className="text-white hover:text-teal-400 transition-colors">
               Contact
             </a>
           </li>
           <li>
-            <a href="#login" className="text-white hover:text-teal-400 transition-colors">
+            <a href="/login" className="text-white hover:text-teal-400 transition-colors">
               Login
             </a>
           </li>
