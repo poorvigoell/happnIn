@@ -5,6 +5,9 @@ import { useEffect } from 'react';
 import Home from './pages/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Workshop from './pages/Workshops';
+import Hackathon from './pages/Hackathons';
+import Competition from './pages/Competitions';
+import Cultural from './pages/Culturalevents';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +17,18 @@ const router = createBrowserRouter([
   {
     path: "/workshops",
     element: <Workshop />, 
+  },
+  {
+    path: "/hackathons",
+    element: <Hackathon />, 
+  },
+  {
+    path: "/competitions",
+    element: <Competition />, 
+  },
+  {
+    path: "/cultural",
+    element: <Cultural />, 
   },
 ]);
 
