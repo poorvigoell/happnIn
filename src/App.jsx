@@ -8,6 +8,7 @@ import Workshop from './pages/Workshops';
 import Hackathon from './pages/Hackathons';
 import Competition from './pages/Competitions';
 import Cultural from './pages/Culturalevents';
+import Official from './pages/Collegeevents';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/cultural",
     element: <Cultural />, 
+  },
+  {
+    path: "/official-college",
+    element: <Official />, 
   },
 ]);
 

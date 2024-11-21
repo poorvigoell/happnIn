@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="bg-gradient-to-r from-gray-900 to-black text-white py-20">
       <div className="container mx-auto px-8 lg:px-16">
         <h2 className="text-6xl font-bold text-teal-400 text-center">
-          WHO ARE WE?
+          WHO ARE <span className="text-white">WE?</span>
         </h2>
         <p className="text-xl mt-10 max-w-4xl mx-auto text-gray-300 text-center ">
           HappnIn is your ultimate platform for college students to stay on top of campus events. We offer a seamless experience to explore upcoming events, register, and receive notifications—all in one place.
