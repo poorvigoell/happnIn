@@ -7,6 +7,9 @@ export default {
   theme: {
     extend: {
       // Extend to ensure full viewport usage for body and containers
+      fontFamily: {
+        autowide: ['Audiowide', 'sans-serif'],
+      },
       screens: {
         'xs': '320px', // Define screen breakpoints if necessary
       },

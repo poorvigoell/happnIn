@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className="flex gap-6 text-lg items-center">
           <li>
-            <a href="/" className="text-white hover:text-teal-400 transition-colors">
+            <a href="/" className="text-white font-autowide hover:text-teal-400 transition-colors">
               Home
             </a>
           </li>

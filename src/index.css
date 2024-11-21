@@ -1,4 +1,6 @@
 /* Tailwind Base */
+@import url('https://fonts.google.com/share?selection.family=Audiowide');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -1,5 +1,6 @@
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import './index.css';
 import { useEffect } from 'react';
 import Home from './pages/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
