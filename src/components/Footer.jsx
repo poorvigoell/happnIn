@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-gray-900 to-black text-white py-2">
+    <footer id="contact" className="bg-gradient-to-r from-gray-900 to-black text-white py-2">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         {/* Left Section: HappnIn Logo/Name */}
         <div className="text-left mb-6 lg:mb-0">
@@ -17,7 +17,7 @@ const Footer = () => {
               <li><a href="/" className="hover:text-teal-400">Home</a></li>
               <li><a href="#services" className="hover:text-teal-400">Services</a></li>
               <li><a href="#about" className="hover:text-teal-400">About</a></li>
-              <li><a href="/contact" className="hover:text-teal-400">Contact</a></li>
+              <li><a href="#contact" className="hover:text-teal-400">Contact</a></li>
             </ul>
           </div>
           <div>
@@ -41,5 +41,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-  

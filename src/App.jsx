@@ -9,6 +9,8 @@ import Hackathon from './pages/Hackathons';
 import Competition from './pages/Competitions';
 import Cultural from './pages/Culturalevents';
 import Official from './pages/Collegeevents';
+import Societies from './pages/Societies'; 
+import Navbar from './components/Navbar'; // Ensure Navbar is imported
 
 const router = createBrowserRouter([
   {
@@ -35,13 +37,17 @@ const router = createBrowserRouter([
     path: "/official-college",
     element: <Official />, 
   },
+  {
+    path: "/societies", 
+    element: <Societies />, 
+  },
 ]);
-
 
 function App() {
   return (
     <>
-    <RouterProvider router={router} />
+      <Navbar /> {/* Navbar is always rendered */}
+      <RouterProvider router={router} />
     </>
   );
 }
