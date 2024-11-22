@@ -1,5 +1,5 @@
 import React from 'react';
-import Digits from '../assets/Digits.jpg';
+import Digits from '../assets/Digits2.jpg';
 
 const Hero = () => {
   return (

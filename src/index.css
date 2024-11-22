@@ -1,5 +1,5 @@
 /* Tailwind Base */
-@import url('https://fonts.google.com/share?selection.family=Audiowide');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Iceland&display=swap');
 
 @tailwind base;
 @tailwind components;
