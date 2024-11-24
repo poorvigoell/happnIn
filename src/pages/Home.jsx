@@ -22,7 +22,6 @@ function Home() {
       
       {/* About Section */}
       <About />
-      <Team />
       {/* Footer */}
       <Footer />
     </div>
