@@ -4,7 +4,7 @@ import Team from "./Team"; // Correct import path for Team
 const About = () => {
   return (
     <section id="about" className="bg-gradient-to-r from-gray-900 to-black text-white py-20">
-      <div className="container mx-auto px-8 lg:px-16">
+      <div className="container mx-auto px-8 lg:px-16 mb-20">
         <h2 className="text-6xl font-bold text-teal-400 text-center">
           WHO ARE <span className="text-white">WE?</span>
         </h2>
