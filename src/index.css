@@ -39,6 +39,9 @@ body {
   min-width: 320px;
   min-height: 100vh; /* Ensure the body covers the full height */
 }
+p {
+  @apply text-sm md:text-base text-gray-500; /* Small font on mobile, larger on desktops */
+}
 
 /* Additional Utility Classes */
 .w-full {
@@ -48,11 +51,28 @@ body {
 .h-screen {
   height: 100vh;
 }
+.container {
+  @apply w-full max-w-4xl mx-auto p-4; /* Default for all screens */
+}
 
-/* Optional additional styling */
+@media (min-width: 768px) {
+  .container {
+    @apply max-w-6xl p-6; /* Adjust for larger screens */
+  }
+}
+
+/* Responsive Typography */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  @apply text-center md:text-left; /* Centered on mobile, left-aligned on larger screens */
+}
+
+
+/* Optional additional styling 
 .container {
   width: 100%;
-  max-width: 1280px; /* Optional for limiting width */
+  max-width: 1280px; /* Optional for limiting width 
   margin: 0 auto;
   padding: 2rem;
-}
+}*/
