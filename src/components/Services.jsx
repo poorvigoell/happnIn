@@ -27,24 +27,24 @@ const Services = () => {
             <h3 className="text-2xl font-semibold text-teal-400 mb-8">Event Notifications</h3>
             <p className="text-sm">Our app helps you manage your college events seamlessly, from schedules to updates, all accessible from your phone or desktop.</p>
           </div>
-          
+
           {/* Second Box (Small) */}
           <div className="p-6 bg-gray-950 rounded-lg shadow-md h-48 flex flex-col justify-center items-center transform transition-all hover:scale-105 hover:shadow-teal-600 hover:shadow-[0_0_10px_0] hover:bg-transparent">
             <h3 className="text-2xl font-semibold text-teal-400 mb-4">Event Feed</h3>
             <p className="text-sm">Explore upcoming events like hackathons, meetups, online events and more across campus.</p>
           </div>
-          
+
           {/* Third Box (Small) */}
           <div className="p-6 bg-gray-950 rounded-lg shadow-md h-48 flex flex-col justify-center items-center transform transition-all hover:scale-105 hover:shadow-teal-600 hover:shadow-[0_0_10px_0] hover:bg-transparent">
             <h3 className="text-2xl font-semibold text-teal-400 mb-4">Event Registration</h3>
             <p className="text-sm">Easily register for events with a streamlined and hassle-free process.</p>
           </div>
-          
+
           {/* Fourth Box (Big) */}
           <div className="p-6 bg-gray-950 rounded-lg shadow-md h-64 flex flex-col justify-center items-center transform transition-all hover:scale-105 -mt-16 hover:shadow-teal-600 hover:shadow-[0_0_10px_0] hover:bg-transparent">
             <h3 className="text-2xl font-semibold text-teal-400 mb-4 -mt-5">Event Management for Societies</h3>
             <p className="text-sm">Empower student societies to post, manage, and update their events on the platform.
-</p>
+            </p>
           </div>
         </div>
       </div>

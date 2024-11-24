@@ -20,17 +20,17 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className="flex gap-6 text-lg items-center">
           <li>
-            <a href="/" className="text-white font-autowide hover:text-teal-400 transition-colors">
-              Home
+            <a href="/" className="text-white font-audiowide text-base hover:text-teal-400 transition-colors">
+              HOME
             </a>
           </li>
           <li className="relative">
             {/* Events Dropdown */}
             <button
               onClick={toggleDropdown}
-              className="flex items-center text-white hover:text-teal-400 transition-colors"
+              className="flex items-center text-white font-audiowide text-base hover:text-teal-400 transition-colors"
             >
-              Events
+              EVENTS
               <span className="ml-2 text-sm">
                 {dropdownOpen ? "▲" : "▼"}
               </span>
@@ -81,18 +81,18 @@ const Navbar = () => {
             )}
           </li>
           <li>
-            <a href="/societies" className="text-white hover:text-teal-400 transition-colors">
-              Societies
+            <a href="/societies" className="text-white font-audiowide text-base hover:text-teal-400 transition-colors">
+              SOCIETIES
             </a>
           </li>
           <li>
-            <a href="/contact" className="text-white hover:text-teal-400 transition-colors">
-              Contact
+            <a href="/contact" className="text-white font-audiowide text-base hover:text-teal-400 transition-colors">
+              CONTACT
             </a>
           </li>
           <li>
-            <a href="/login" className="text-white hover:text-teal-400 transition-colors">
-              Login
+            <a href="/login" className="text-white font-audiowide text-base hover:text-teal-400 transition-colors">
+              LOGIN
             </a>
           </li>
         </ul>
