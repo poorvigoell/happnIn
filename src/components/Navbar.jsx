@@ -92,7 +92,7 @@ const Navbar = () => {
           </li>
           <li>
             <a href="/login" className="text-white font-audiowide text-base hover:text-teal-400 transition-colors">
-              LOGIN
+              HOST EVENT
             </a>
           </li>
         </ul>
