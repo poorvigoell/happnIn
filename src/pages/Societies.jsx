@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const societies = [
   { name: "Techneeds", description: "Learn coding and participate in hackathons." },
@@ -27,18 +29,28 @@ const societies = [
 
 const Societies = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-900 to-black text-white min-h-screen py-10 px-8">
-      <h1 className="text-4xl font-bold text-teal-400 text-center mb-10">Societies</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {societies.map((society, index) => (
-          <div
-            key={index}
-            className="bg-gray-800 rounded-lg p-8 shadow-lg hover:shadow-teal-400 transform hover:scale-105 transition-all duration-300"
-          >
-            <h2 className="text-3xl font-semibold text-teal-400 mb-4">{society.name}</h2>
-            <p className="text-gray-300">{society.description}</p>
-          </div>
-        ))}
+    <div className="w-full min-h-screen flex-col flex mx-auto items-center overflow-y-auto bg-gradient-to-r from-gray-900 to-black">
+      <Navbar />
+
+      <section className="m-20">
+        <div className='flex justify-center'>
+          <h2 className="text-7xl text-white font-semibold justify-between m-10">SOCIETIES</h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {societies.map((society, index) => (
+            <div
+              key={index}
+              className="bg-gray-900 rounded-lg p-8 shadow-lg hover:shadow-teal-400 hover:shadow-[0_0_10px_0] hover:bg-transparent transform hover:scale-105 transition-all duration-300"
+            >
+              <h2 className="text-3xl font-semibold text-teal-400 mb-4">{society.name}</h2>
+              <p className="text-gray-300">{society.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <div className='w-full'>
+        <Footer />
       </div>
     </div>
   );

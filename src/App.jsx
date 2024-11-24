@@ -10,7 +10,6 @@ import Competition from './pages/Competitions';
 import Cultural from './pages/Culturalevents';
 import Official from './pages/Collegeevents';
 import Societies from './pages/Societies'; 
-import Navbar from './components/Navbar'; // Ensure Navbar is imported
 
 const router = createBrowserRouter([
   {
@@ -46,7 +45,6 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <Navbar /> {/* Navbar is always rendered */}
       <RouterProvider router={router} />
     </>
   );
