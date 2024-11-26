@@ -1,7 +1,9 @@
 // src/components/Footer.jsx
+import React from "react";
+
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-gradient-to-r from-gray-900 to-black text-white py-2">
+    <footer id="contact" className="bg-gradient-to-r from-gray-900 to-black text-white">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         {/* Left Section: HappnIn Logo/Name */}
         <div className="text-left mb-6 lg:mb-0">
@@ -23,7 +25,6 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-teal-400">Follow Us</h4>
             <ul className="mt-2 text-gray-300">
-              <li><a href="https://facebook.com" className="hover:text-teal-400">Facebook</a></li>
               <li><a href="https://twitter.com" className="hover:text-teal-400">Twitter</a></li>
               <li><a href="https://instagram.com" className="hover:text-teal-400">Instagram</a></li>
               <li><a href="https://linkedin.com" className="hover:text-teal-400">LinkedIn</a></li>
@@ -32,7 +33,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section: Copyright */}
-        <div className="mt-6 text-center">
+        <div className="text-center">
           <p className="text-sm text-gray-300">&copy; 2024 HappnIn. All rights reserved.</p>
         </div>
       </div>

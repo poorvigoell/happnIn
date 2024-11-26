@@ -36,7 +36,7 @@ const Navbar = () => {
               </span>
             </button>
             {dropdownOpen && (
-              <ul className="absolute left-0 mt-2 w-48 bg-transparent rounded shadow-lg">
+              <ul className="absolute left-0 mt-2 w-48 bg-gray-950 rounded shadow-lg">
                 <li>
                   <a
                     href="/hackathons"
@@ -86,13 +86,13 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/contact" className="text-white font-audiowide text-base hover:text-teal-400 transition-colors">
+            <a href="#contact" className="text-white font-audiowide text-base hover:text-teal-400 transition-colors">
               CONTACT
             </a>
           </li>
           <li>
             <a href="/login" className="text-white font-audiowide text-base hover:text-teal-400 transition-colors">
-              HOST EVENT
+              HOST +
             </a>
           </li>
         </ul>
